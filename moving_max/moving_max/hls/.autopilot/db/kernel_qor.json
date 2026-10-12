@@ -1,0 +1,30 @@
+{
+    "name": "moving_max",
+    "type": "function",
+    "pipelined": "yes",
+    "dataflowed": "no",
+    "original_ti": 66,
+    "original_tl": 68,
+    "calculated_ti": -1,
+    "calculated_tl": -1,
+    "assume_ti": -1,
+    "assume_tl": -1,
+    "CIs": [],
+    "loops": [
+        {
+            "name": "MAIN_LOOP",
+            "type": "loop",
+            "trip_count": 64,
+            "pipelined": "yes",
+            "dataflowed": "no",
+            "original_ti": 64,
+            "original_tl": 67,
+            "calculated_ti": -1,
+            "calculated_tl": -1,
+            "assume_ti": -1,
+            "assume_tl": -1,
+            "CIs": [],
+            "loops": []
+        }
+    ]
+}

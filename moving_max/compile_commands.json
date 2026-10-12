@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "I:\\Xilinx_Projects\\Lesson_15\\moving_max",
+    "arguments": [
+      "I:\\XILINX\\2026.1\\Vitis\\win64\\tools\\clang-16\\bin\\clang++.exe",
+      "--sysroot=I:\\XILINX\\2026.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=I:\\XILINX\\2026.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=moving_max",
+      "-c",
+      "I:\\Xilinx_Projects\\Lesson_15\\moving_max\\moving_max.cpp"
+    ],
+    "file": "I:\\Xilinx_Projects\\Lesson_15\\moving_max\\moving_max.cpp"
+  },
+  {
+    "directory": "I:\\Xilinx_Projects\\Lesson_15\\moving_max",
+    "arguments": [
+      "I:\\XILINX\\2026.1\\Vitis\\win64\\tools\\clang-16\\bin\\clang++.exe",
+      "--sysroot=I:\\XILINX\\2026.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=I:\\XILINX\\2026.1\\Vitis\\include",
+      "-c",
+      "I:\\Xilinx_Projects\\Lesson_15\\moving_max\\tb_moving_max.cpp"
+    ],
+    "file": "I:\\Xilinx_Projects\\Lesson_15\\moving_max\\tb_moving_max.cpp"
+  }
+]

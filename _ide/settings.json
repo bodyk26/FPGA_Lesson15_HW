@@ -1,0 +1,7 @@
+{
+    "clangd.fallbackFlags": [
+        "-II:\\XILINX\\2026.1\\Vitis\\include",
+        "-II:\\XILINX\\2026.1\\Vitis\\include\\etc",
+        "-II:\\XILINX\\2026.1\\Vitis\\win64\\tools\\auto_cc\\include"
+    ]
+}

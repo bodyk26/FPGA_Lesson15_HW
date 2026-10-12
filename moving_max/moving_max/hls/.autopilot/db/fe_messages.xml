@@ -1,0 +1,32 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="moving_max" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=moving_max" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="moving_max.cpp:11:5" msg_body="pipeline   1 moving_max config_compile -pipeline_loops 64INIT_LOOP moving_max.cpp:11:5">
+        <args LoopLoc="moving_max.cpp:11:5" LoopLoc-DebugLoc="File moving_max.cpp Line 11 Column 5" LoopName="INIT_LOOP" PragmaFunction="moving_max" PragmaInferReason="config_compile -pipeline_loops 64" PragmaIsAuto="1" PragmaType="pipeline"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="moving_max.cpp:19:5" msg_body="pipeline   1 moving_max config_compile -pipeline_loops 64MAIN_LOOP moving_max.cpp:19:5">
+        <args LoopLoc="moving_max.cpp:19:5" LoopLoc-DebugLoc="File moving_max.cpp Line 19 Column 5" LoopName="MAIN_LOOP" PragmaFunction="moving_max" PragmaInferReason="config_compile -pipeline_loops 64" PragmaIsAuto="1" PragmaType="pipeline"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="moving_max.cpp:23:26" msg_body="Loop 'VITIS_LOOP_23_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_23_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="moving_max.cpp:33:26" msg_body="Loop 'VITIS_LOOP_33_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_33_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="moving_max.cpp:7:0" msg_body="Unrolling loop 'VITIS_LOOP_23_1' (moving_max.cpp:23:26) in function 'moving_max' completely with a factor of 7">
+        <args Factor="7" LoopLoc="moving_max.cpp:23:26" LoopName="VITIS_LOOP_23_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="moving_max.cpp:7:0" msg_body="Unrolling loop 'VITIS_LOOP_33_2' (moving_max.cpp:33:26) in function 'moving_max' completely with a factor of 7">
+        <args Factor="7" LoopLoc="moving_max.cpp:33:26" LoopName="VITIS_LOOP_33_2"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="moving_max.cpp:8:9" msg_body="array_partition dim=1 type=complete  variable=window 1 moving_max moving_max.cpp:8:9 window">
+        <args PragmaFunction="moving_max" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=window" PragmaType="array_partition" VarLoc="moving_max.cpp:8:9" VarName="window"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="moving_max.cpp:8:9" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'window' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="window" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="moving_max.cpp:8:9" msg_body="Applying array_partition to 'window': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="window"/>
+    </msg>
+</xilinx:hls_fe_msgs>

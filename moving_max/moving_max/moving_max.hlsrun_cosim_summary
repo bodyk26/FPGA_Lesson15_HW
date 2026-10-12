@@ -1,0 +1,227 @@
+<ENTRY>
+{
+ "thisFile": "I:/Xilinx_Projects\\Lesson_15\\moving_max\\moving_max\\moving_max.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "10/12/26 22:45:37",
+ "timestampMillis": "1791834337257",
+ "buildStep": {
+  "cmdId": "37a33b5e-21c6-4706-aa3d-1548cccb4c18",
+  "name": "vitis-run",
+  "logFile": "I:/Xilinx_Projects\\Lesson_15\\moving_max\\moving_max\\logs\\moving_max.steps.log",
+  "commandLine": "I:/XILINX/2026.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config I:\\Xilinx_Projects\\Lesson_15\\moving_max\\hls_config.cfg --work_dir moving_max ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "I:\\Xilinx_Projects\\Lesson_15\\moving_max\\hls_config.cfg",
+   "--work_dir",
+   "moving_max"
+  ],
+  "iniFiles": [],
+  "cwd": "I:\\Xilinx_Projects\\Lesson_15\\moving_max"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/12/26 22:45:37",
+ "timestampMillis": "1791834337257",
+ "status": {
+  "cmdId": "37a33b5e-21c6-4706-aa3d-1548cccb4c18",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "10/12/26 22:45:40",
+ "timestampMillis": "1791834340187",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_RTL_COSIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "moving_max",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "I:/Xilinx_Projects\\Lesson_15\\moving_max\\moving_max.cpp",
+     "I:/Xilinx_Projects\\Lesson_15\\moving_max\\moving_max.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2026.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "10/12/26 22:45:40",
+ "timestampMillis": "1791834340188",
+ "buildStep": {
+  "cmdId": "b53fde8f-3e6c-4258-b958-82abfbd17a4e",
+  "name": "",
+  "logFile": "I:/Xilinx_Projects\\Lesson_15\\moving_max\\moving_max\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "I:\\Xilinx_Projects\\Lesson_15\\moving_max"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/12/26 22:45:40",
+ "timestampMillis": "1791834340188",
+ "status": {
+  "cmdId": "b53fde8f-3e6c-4258-b958-82abfbd17a4e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/12/26 22:45:40",
+ "timestampMillis": "1791834340188",
+ "report": {
+  "path": "I:/Xilinx_Projects\\Lesson_15\\moving_max\\moving_max\\hls\\sim\\report\\moving_max_cosim.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_COSIMULATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/12/26 22:45:40",
+ "timestampMillis": "1791834340188",
+ "report": {
+  "path": "I:/Xilinx_Projects\\Lesson_15\\moving_max\\moving_max\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/12/26 22:45:40",
+ "timestampMillis": "1791834340188",
+ "report": {
+  "path": "I:/Xilinx_Projects\\Lesson_15\\moving_max\\moving_max\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/12/26 22:45:40",
+ "timestampMillis": "1791834340188",
+ "report": {
+  "path": "I:/Xilinx_Projects\\Lesson_15\\moving_max\\moving_max\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_TIMELINE_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/12/26 22:45:40",
+ "timestampMillis": "1791834340188",
+ "report": {
+  "path": "I:/Xilinx_Projects\\Lesson_15\\moving_max\\moving_max\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_WAVE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/12/26 22:46:12",
+ "timestampMillis": "1791834372899",
+ "status": {
+  "cmdId": "b53fde8f-3e6c-4258-b958-82abfbd17a4e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "10/12/26 22:46:12",
+ "timestampMillis": "1791834372986",
+ "status": {
+  "cmdId": "37a33b5e-21c6-4706-aa3d-1548cccb4c18",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/12/26 22:46:12",
+ "timestampMillis": "1791834372987",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "10/12/26 22:46:12",
+ "timestampMillis": "1791834372987",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
